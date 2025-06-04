@@ -1,4 +1,4 @@
-# SCFMUNet: A Fusion Architecture Based on Multi-Scale State Space Model andChannel Attention for Medical Image Segmentation
+# SCFMUNet 
 
 ## Running Environments
 
@@ -15,23 +15,6 @@ causal_conv1d==1.0.0
 mamba_ssm==1.0.1   
 
 ## datasets
-
-### Synapse
-
-For the Synapse dataset, you could download them from [Baidu](https://pan.baidu.com/s/1skSKoI5AF6eWzxgG3E_NJw). After downloading the datasets, you are supposed to put them into './data/Synapse/', and the file format reference is as follows.
-
-- After downloading the datasets, you are supposed to put them into `./data/Synapse/`, and the file format reference is as follows.
-
-- `./data/Synapse/`
-  - `lists`
-    - `list_Synapse`
-      - `all.lst`
-      - `test_vol.txt`
-      - `train.txt`
-  - `test_vol_h5`
-    - `casexxxx.npy.h5`
-  - `train_npz`
-    - `casexxxx_slicexxx.npz`
 
 ### ACDC
 
@@ -52,10 +35,27 @@ For the ACDC dataset, you could download them from [Baidu](https://pan.baidu.com
     - `case_xxxsliceED_x.npz`
     - `case_xxxsliceES_x.npz`
 
+### Synapse
+
+For the Synapse dataset, you could download them from [Baidu](https://pan.baidu.com/s/1skSKoI5AF6eWzxgG3E_NJw). After downloading the datasets, you are supposed to put them into './data/Synapse/', and the file format reference is as follows.
+
+- After downloading the datasets, you are supposed to put them into `./data/Synapse/`, and the file format reference is as follows.
+
+- `./data/Synapse/`
+  - `lists`
+    - `list_Synapse`
+      - `all.lst`
+      - `test_vol.txt`
+      - `train.txt`
+  - `test_vol_h5`
+    - `casexxxx.npy.h5`
+  - `train_npz`
+    - `casexxxx_slicexxx.npz`
+    - 
 ## Prepare the pre_trained weights
 
 You could download them from [Baidu](https://pan.baidu.com/s/1skSKoI5AF6eWzxgG3E_NJw) and put them into './pre_trained_weights/'.
 
 ## How to Run
 
-python train.py
+python ACDC_train.py or python train.py 
