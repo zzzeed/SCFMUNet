@@ -18,7 +18,7 @@ mamba_ssm==1.0.1
 
 ### ACDC
 
-For the ACDC dataset, you could download them from [Baidu](https://pan.baidu.com/s/1skSKoI5AF6eWzxgG3E_NJw). After downloading the datasets, you are supposed to put them into './data/ACDC/', and the file format reference is as follows.
+For the ACDC dataset, you could download them from [Baidu](https://pan.baidu.com/s/1WQeEfAiUZCnrPGxXmbuJSg?pwd=gtv3). After downloading the datasets, you are supposed to put them into './data/ACDC/', and the file format reference is as follows.
 
 - `./data/Synapse/`
   - `lists_ACDC`
@@ -37,7 +37,7 @@ For the ACDC dataset, you could download them from [Baidu](https://pan.baidu.com
 
 ### Synapse
 
-For the Synapse dataset, you could download them from [Baidu](https://pan.baidu.com/s/1skSKoI5AF6eWzxgG3E_NJw). After downloading the datasets, you are supposed to put them into './data/Synapse/', and the file format reference is as follows.
+For the Synapse dataset, you could download them from [Baidu](https://pan.baidu.com/s/1dybSiRd1uT2h4X3Td9vn8g?pwd=63rw). After downloading the datasets, you are supposed to put them into './data/Synapse/', and the file format reference is as follows.
 
 - After downloading the datasets, you are supposed to put them into `./data/Synapse/`, and the file format reference is as follows.
 
@@ -54,7 +54,7 @@ For the Synapse dataset, you could download them from [Baidu](https://pan.baidu.
     
 ## Prepare the pre_trained weights
 
-You could download them from [Baidu](https://pan.baidu.com/s/1skSKoI5AF6eWzxgG3E_NJw) and put them into './pre_trained_weights/'.
+You could download them from [Baidu](https://pan.baidu.com/s/1L1tcgwasrVY89MwLPaUOSA?pwd=3ixa) and put them into './pre_trained_weights/'.
 
 ## How to Run
 
