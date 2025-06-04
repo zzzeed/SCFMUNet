@@ -51,7 +51,7 @@ For the Synapse dataset, you could download them from [Baidu](https://pan.baidu.
     - `casexxxx.npy.h5`
   - `train_npz`
     - `casexxxx_slicexxx.npz`
-    - 
+    
 ## Prepare the pre_trained weights
 
 You could download them from [Baidu](https://pan.baidu.com/s/1skSKoI5AF6eWzxgG3E_NJw) and put them into './pre_trained_weights/'.
