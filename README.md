@@ -1,6 +1,6 @@
 # SCFMUNet 
 
-## Running Environments
+## 1.Running Environments
 
 python=3.8
 
@@ -14,7 +14,7 @@ causal_conv1d==1.0.0
 
 mamba_ssm==1.0.1   
 
-## datasets
+## 2.datasets
 
 ### ACDC
 
@@ -52,10 +52,10 @@ For the Synapse dataset, you could download them from [Baidu](https://pan.baidu.
   - `train_npz`
     - `casexxxx_slicexxx.npz`
     
-## Prepare the pre_trained weights
+## 3.Prepare the pre_trained weights
 
 You could download them from [Baidu](https://pan.baidu.com/s/1L1tcgwasrVY89MwLPaUOSA?pwd=3ixa) and put them into './pre_trained_weights/'.
 
-## How to Run
+## 4.How to Run
 
 python ACDC_train.py or python train.py 
